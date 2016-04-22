@@ -54,15 +54,21 @@ input_element.setAttribute('id,' 'answer_container');
 input_element.setAttribute('placeholder', '0');
 
 
-top_container = document.createElement('div');
-top_container.setAttribute('id','top_container');
+    top_container = document.createElement('div');
+    top_container.setAttribute('id','top_container');
 
-numbers_container = document.createElement('div');
-numbers_container.setAttribute('id','numbers_container');
+    numbers_container = document.createElement('div');
+    numbers_container.setAttribute('id','numbers_container');
 
 
-operators_container = document.createElement('div');
-operators_container.setAttribute('id', operators_container);
+    operators_container = document.createElement('div');
+    operators_container.setAttribute('id', operators_container);
 
-delete_button = document.createElement('button');
-delete_button.setAttribute('id', 'delete_button');
+    delete_button = document.createElement('button');
+    delete_button.setAttribute('id', 'delete_button');
+
+var create_top_buttons_elements = functions(top_button_element_type,top_button_element_id);
+
+
+
+    var top_button_element = document.createElement()=
